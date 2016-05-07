@@ -15,12 +15,12 @@ function router() {
 
         case 'send':
             $post_name = ! empty($_POST['name']) ? ucfirst($_POST['name']) : "";
-            views('send', ['name' => $post_name]);
+            views('send', array('name' => $post_name));
             break;
 
         case 'from':
             $name = ! empty($routes[1]) ? ucfirst($routes[1]) : "";
-            views('card', ['name' => $name]);
+            views('card', array('name' => $name));
             break;
             
         default:
@@ -29,10 +29,10 @@ function router() {
     }
 }
 
-function views ($file, $data =[]) {
+function views ($file, $data = array()) {
     include "views/partials/header.php";
     // include "views/partials/menu.php";
-    
+
     include "views/".$file.".php";
 
     include "views/partials/footer.php";
@@ -42,7 +42,7 @@ function get_routes() {
     $base_url = getCurrentUri();
     $routes = array();
     $routes = explode('/', $base_url);
-    $clean_routes = [];
+    $clean_routes = array();
 
     foreach($routes as $route) {
         if(trim($route) != '') {

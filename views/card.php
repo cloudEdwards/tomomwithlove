@@ -7,5 +7,8 @@
     </div>
 
 </div>
+<div style="text-align:center;">
+    <img src="/images/flowers.jpg" style="width: 100%; margin:10px auto;">
+</div>
 
 <div>
