@@ -1,5 +1,16 @@
-body { background-image: url("/images/heart.jpg"); }
+body { 
+    background-image: url("/images/heart.jpg"); 
+}
+
+body, #card-page { 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
 
 h1, h2, h3 { font-family: 'Ruthie', cursive !important; }
 
 #ce-card-link { color: linen !important; }
+
+#card-page { 
+    background-image: url('/images/flowers.jpg'); 
+}

@@ -1,14 +1,11 @@
 <?php
 ?>
-<div class="callout large primary">
+<div class="callout large primary" id="card-page">
     <div class="row column text-center">
         <h1>Happy Mother's Day</h1>
         <h2 class="subheader">with love from <?php echo $data['name'] ?></h2>
     </div>
 
-</div>
-<div style="text-align:center;">
-    <img src="/images/flowers.jpg" style="width: 100%; margin:10px auto;">
 </div>
 
 <div>
