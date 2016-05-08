@@ -1,11 +1,6 @@
 <?php
 
-$env = 'local';
-
-$GLOBALS['ENV'] = $env;
-$GLOBALS['BASE_URL'] = $env == 'local' ? 'localhost/tomomwithlove' : 'tomomwith.love';
-$GLOBALS['SUB_DOM'] = $env == 'local' ? '/tomomwithlove' : '';
-$GLOBALS['ENV_NAME'] = $env == 'local' ? '-local' : '';
+include "config.php";
 
 router();
 
@@ -124,8 +119,8 @@ function getNameId($name) {
 
 function mysqlQuery($query, $table, $data){
     $servername = 'localhost';
-    $username = "wp";
-    $password = "wp";
+    $username = $GLOBALS['DB_USER'];
+    $password = $GLOBALS['DB_password'];
     $dbname = "tomomwithlove";
 
     // Create connection
