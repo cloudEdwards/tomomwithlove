@@ -1,16 +1,38 @@
-body { 
-    background-image: url("/images/heart.jpg"); 
-}
+
 
 body, #card-page { 
+    background: url("/images/flowers.jpg") no-repeat; 
     background-size: cover; 
-    background-repeat: no-repeat; 
 }
 
-h1, h2, h3 { font-family: 'Ruthie', cursive !important; }
+#card-page { 
+    background-image: url('/images/heart.jpg'); 
+}
+
+body#body-local, #card-page-local { 
+    background: url("/tomomwithlove/images/flowers.jpg") no-repeat; 
+    background-size: cover; 
+}
+
+#card-page-local { 
+    background-image: url('/tomomwithlove/images/heart.jpg'); 
+}
+
+input[type=radio] {
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
 
 #ce-card-link { color: linen !important; }
 
-#card-page { 
-    background-image: url('/images/flowers.jpg'); 
+
+h1, h2, h3 { font-family: 'Ruthie', cursive !important; }
+
+
+.callout.primary {
+    background-color: rgba(222, 240, 252, .2);
 }
+
+textarea { height: 100px; }
