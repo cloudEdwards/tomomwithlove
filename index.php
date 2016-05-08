@@ -118,9 +118,9 @@ function getNameId($name) {
 }
 
 function mysqlQuery($query, $table, $data){
-    $servername = 'localhost';
+    $servername = $GLOBALS['DB_SERVER'];
     $username = $GLOBALS['DB_USER'];
-    $password = $GLOBALS['DB_password'];
+    $password = $GLOBALS['DB_PASS'];
     $dbname = "tomomwithlove";
 
     // Create connection

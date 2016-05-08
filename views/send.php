@@ -17,7 +17,10 @@
         <!-- Your share button code -->
         <div class="fb-share-button"
         data-href="<?php echo $GLOBALS['BASE_URL']; ?>/from/<?php echo $data['link']; ?>" data-layout="button" 
-        data-mobile-iframe="true">
-    </div>
+        data-mobile-iframe="true"></div>
+
+        <a target="_blank" href="http://twitter.com/home/?status=To Mom With Love <?php echo $GLOBALS['BASE_URL']; ?>/from/<?php echo $data['link']; ?>">
+            <img style="width: 130px;" src="<?php echo $GLOBALS['SUB_DOM']; ?>/images/tweet-button.png">
+        </a>
     </div>
 </div>
