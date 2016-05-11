@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
         <link href='https://fonts.googleapis.com/css?family=Ruthie' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="<?php echo $GLOBALS['SUB_DOM']; ?>/resources/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     </head>
     <body id="body<?php echo $GLOBALS['ENV_NAME']; ?>">
         <div id="fb-root"></div>

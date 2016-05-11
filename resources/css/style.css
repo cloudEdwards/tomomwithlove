@@ -16,6 +16,7 @@ body#body-local, #card-page-local {
 
 #card-page-local { 
     background-image: url('/tomomwithlove/images/heart.jpg'); 
+    background-attachment: fixed;
 }
 
 input[type=radio] {
@@ -36,3 +37,8 @@ h1, h2, h3 { font-family: 'Ruthie', cursive !important; }
 }
 
 textarea { height: 100px; }
+
+#quote {
+    margin-top: 100px;
+}
+

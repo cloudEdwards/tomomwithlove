@@ -17,17 +17,24 @@
             </p>
             <br>
             <div class="container">
-                <input type="radio" id="f-option" checked="checked" value="public">
+                <input type="radio" id="f-option" name='privacy' checked="checked" value="public">
                 <label for="f-option">Public</label>
-                <input type="radio" id="s-option" name="privacy" value="price">
+                <input type="radio" id="s-option" name="privacy" value="private">
                 <label for="s-option">Private</label>
             </div>
             <input class="button" style="width:50%; margin:0 auto;" type="submit" 
             value="Make Card">
         </form>
     </div>
-    <div style="text-align:center;">
-        <img src="<?php echo $GLOBALS['SUB_DOM']; ?>/images/flower2.jpg" style="width: 50%; margin:10px auto;">
+    <div style="text-align:center; margin-top:20px;">
+        <a href="<?php echo $GLOBALS['SUB_DOM']; ?>/wall" class="button" 
+        target="_blank" style="color:white;">
+           See the wall of messages
+        </a>
+        <br>
+        <a href="<?php echo $GLOBALS['SUB_DOM']; ?>/wall" target="_blank">
+            <img src="<?php echo $GLOBALS['SUB_DOM']; ?>/images/flower2.jpg" style="width: 50%; margin:10px auto;">
+        </a>
     </div>
 </div>
     

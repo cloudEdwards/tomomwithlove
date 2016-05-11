@@ -10,4 +10,7 @@
     </div>
 </div>
 
-<div>
+<div class="row column text-center">
+    <h2 class="quotes" id="quotes"></h3>
+    <h3 class="quotes" id="author"></h3>
+</div>

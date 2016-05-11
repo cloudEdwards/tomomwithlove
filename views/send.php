@@ -19,8 +19,21 @@
         data-href="<?php echo $GLOBALS['BASE_URL']; ?>/from/<?php echo $data['link']; ?>" data-layout="button" 
         data-mobile-iframe="true"></div>
 
-        <a target="_blank" href="http://twitter.com/home/?status=To Mom With Love <?php echo $GLOBALS['BASE_URL']; ?>/from/<?php echo $data['link']; ?>">
-            <img style="width: 130px;" src="<?php echo $GLOBALS['SUB_DOM']; ?>/images/tweet-button.png">
+        <a target="_blank" href="http://twitter.com/home/?status=To Mom With Love <?php
+        echo $GLOBALS['BASE_URL']; ?>/from/<?php echo $data['link']; ?>">
+            <img style="width: 130px;" 
+            src="<?php echo $GLOBALS['SUB_DOM']; ?>/images/tweet-button.png">
+        </a>
+
+        <br>
+        <a href="<?php echo $GLOBALS['SUB_DOM']; ?>/wall" target="_blank"
+        class="button" style="color:white; margin-top:20px;">
+           See the wall of messages
+        </a>
+        <br>
+        <a href="<?php echo $GLOBALS['SUB_DOM']; ?>/" target="_blank"
+        class="button" style="color:white; margin-top:20px;">
+           Send another Message
         </a>
     </div>
 </div>
